@@ -1,0 +1,13 @@
+log:
+  level: debug
+http:
+  address: 127.0.0.1:8080
+db:
+  postgres:
+    dsn: host=127.0.0.1 user=order_service password=order_service dbname=order_service port=5434
+metrics:
+  enabled: true
+swagger:
+  enabled: true
+tracing:
+  enabled: true
